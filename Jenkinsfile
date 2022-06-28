@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                git branch: '**/*', url: 'https://github.com/Sushil-Ohol/ENVIRONMENT-VARS.git'
+                git 'https://github.com/Sushil-Ohol/ENVIRONMENT-VARS.git'
                 echo 'CHECKING OUT REPOSITORY' 
             }
            
